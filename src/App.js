@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const todaysDate = new Date();
+
+  const Weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thusday","Friday","Saturday"];
+
+  const Months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+
+          <div className="Main">
+
+            <div className="calender">
+
+              <div className="left">
+
+                <p id="date">{todaysDate.getDate()}</p>
+
+                <p id="day">{Weekdays[todaysDate.getDay()]}</p>
+
+              </div>
+
+              <div className="right">
+
+                <p id="month">{Months[todaysDate.getMonth()]}</p>
+
+                <p id="year">{todaysDate.getFullYear()}</p>
+                
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+    </>
   );
 }
 
