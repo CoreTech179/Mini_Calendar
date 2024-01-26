@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mini_Calendar/static/css/main.f4887ba4.css",
+    "main.js": "/Mini_Calendar/static/js/main.762bd67f.js",
+    "static/js/787.125eccb1.chunk.js": "/Mini_Calendar/static/js/787.125eccb1.chunk.js",
+    "index.html": "/Mini_Calendar/index.html",
+    "main.f4887ba4.css.map": "/Mini_Calendar/static/css/main.f4887ba4.css.map",
+    "main.762bd67f.js.map": "/Mini_Calendar/static/js/main.762bd67f.js.map",
+    "787.125eccb1.chunk.js.map": "/Mini_Calendar/static/js/787.125eccb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4887ba4.css",
+    "static/js/main.762bd67f.js"
+  ]
+}
